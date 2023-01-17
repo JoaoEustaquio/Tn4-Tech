@@ -9,7 +9,31 @@
 }
 
 .App-header {
-  background-color: #2643AD;
+  display: flex;
+  background-color: #132875;
+  min-height: 15vh;
+  min-width: 15vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10vh;
+}
+
+.TN4Logo {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+
+.Header-btn {
+  display: 'flex';
+  flex-direction: row;
+  border-left: 10%;
+}
+
+.App-body {
+  background-color: #161616;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +43,18 @@
   color: white;
 }
 
+.App-footer {
+  background-color: #132875;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
 .App-link {
   color: #61dafb;
 }
@@ -27,6 +63,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

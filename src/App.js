@@ -1,10 +1,18 @@
 import './App.css';
-import './Header';
+import './Header.js';
+import Header from './Header.js';
 
 function App() {
   return (
     <div className="App">
-      <header />
+      <Header>teste</Header>
+      <body className="App-body">
+
+      </body>
+
+      <footer className="App-footer">
+
+      </footer>
     </div>
   );
 }
