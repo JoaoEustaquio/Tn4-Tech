@@ -22,8 +22,17 @@
   margin: 0px;
   padding: 0px;
   display: flex;
+  justify-content: space-between;
   height: 100px;
   width: 100px;
+}
+
+.SocialMedia {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 30px;
+  width: 30px;
 }
 
 .Header-btn {

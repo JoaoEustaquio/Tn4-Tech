@@ -1319,6 +1319,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/lexend-deca@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend-deca/-/lexend-deca-4.5.14.tgz#6f962ba77b39f8db0cc614f32dc3b79fc159d1a9"
+  integrity sha512-jHn2fxC/linkGvx6LxsPrpkkNcWbk6H+vITZgvB32D5whQDlyFDXnhYLODTzimLaJPsHEufxCCQHj95qz1rW8g==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"

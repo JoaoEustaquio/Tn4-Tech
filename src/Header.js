@@ -2,6 +2,7 @@ import './App.css';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
+import "@fontsource/lexend-deca";
 
 export default function Header() {
     return (
@@ -15,14 +16,19 @@ export default function Header() {
                     },
                 }}
             >
-                <ButtonGroup  className="Header-btn" variant="text" aria-label="text button group">
+                <ButtonGroup className="Header-btn" variant="text" aria-label="text button group">
                     <Button>PC Gamer</Button>
                     <Button>PC Corporativo</Button>
                     <Button>Notebook</Button>
-                    <Button>Fale Conosco</Button>
+                    <Button href="https://wa.link/tses2v" target="_blank">Fale Conosco</Button>
                     <Button>Faça uma Visita</Button>
                 </ButtonGroup>
             </Box>
+
+            <div className="SocialMedia">
+                <img className="InstaLogo" src='./Insta_Logo.png' alt='InstaLogo' />
+                <img className="ZapLogo" src='./Zap_Logo.png' alt='ZapLogo' />
+            </div>
         </Box>
     );
 }
