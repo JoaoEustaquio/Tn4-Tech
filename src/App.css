@@ -33,7 +33,24 @@
   display: flex;
   height: 30px;
   width: 30px;
+  justify-content: space-between;
 }
+
+/* .InstaLogo {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+
+.ZapLogo {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 30px;
+  width: 30px;
+} */
 
 .Header-btn {
   display: 'flex';

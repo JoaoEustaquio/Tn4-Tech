@@ -5,7 +5,7 @@ import Header from './Header.js';
 function App() {
   return (
     <div className="App">
-      <Header>teste</Header>
+      <Header/>
       <body className="App-body">
 
       </body>
