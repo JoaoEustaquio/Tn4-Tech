@@ -22,22 +22,21 @@ export default function Header() {
                 }}
             >
                 <ButtonGroup variant="" className="Header-btn" size="large">
-                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,5vh' }} role="link" onClick={() => openInNewTab('')} >PC Gamer</Button>
-                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,5vh' }}  role="link" onClick={() => openInNewTab('')}>PC Corporativo</Button>
-                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,5vh' }}  role="link" onClick={() => openInNewTab('')}>Notebook</Button>
-                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,5vh' }}  role="link" onClick={() => openInNewTab('https://wa.link/tses2v')}>Fale Conosco</Button>
-                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,5vh' }}  role="link" onClick={() => openInNewTab('')}>Faça uma Visita</Button>
+                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,9vh' }} role="link" onClick={() => openInNewTab('')} >PC Gamer</Button>
+                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,9vh' }}  role="link" onClick={() => openInNewTab('')}>PC Corporativo</Button>
+                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,9vh' }}  role="link" onClick={() => openInNewTab('')}>Notebook</Button>
+                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,9vh' }}  role="link" onClick={() => openInNewTab('https://wa.link/tses2v')}>Fale Conosco</Button>
+                    <Button style={{ fontFamily: 'Lexend Deca', fontSize: '2,9vh' }}  role="link" onClick={() => openInNewTab('')}>Faça uma Visita</Button>
                 </ButtonGroup>
             </Box>
 
             <Box>
                 <Box className='SocialMedia'>                
-                    <img role="link" onClick={() => openInNewTab('https://www.instagram.com/tn4.tech/')} className="InstaLogo" src='./Insta_Logo.png' alt='InstaLogo' />
-                    <img role="link" onClick={() => openInNewTab('https://wa.link/tses2v')} className="ZapLogo" src='./Zap_Logo.png' alt='ZapLogo' />
+                    <img style={{ marginRight: '2rem' }} role="link" onClick={() => openInNewTab('https://www.instagram.com/tn4.tech/')} className="InstaLogo" src='./Insta_Logo.png' alt='InstaLogo' />
+                    <img style={{ marginRight: '2rem' }} role="link" onClick={() => openInNewTab('https://wa.link/tses2v')} className="ZapLogo" src='./Zap_Logo.png' alt='ZapLogo' />
+                    <img role="link" onClick={() => openInNewTab('https://wa.link/tses2v')} className="FaceLogo" src='./Facebook_Logo.png' alt='FaceLogo' />
                 </Box>
             </Box>
-
-
         </Box>
     );
 }

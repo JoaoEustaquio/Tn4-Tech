@@ -29,24 +29,21 @@
 }
 
 .SocialMedia {
+  display: flex;
   flex-direction: row;
   margin: 0px;
   padding: 0px;
   height: 40px;
   width: 40px;
-  display: flex;
-  justify-content: space-between;
   cursor: pointer;
 }
+/* 
+.FaceLogo {
+  height: 60px;
+  width: 60px;
+} */
 
-/* .InstaLogo {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  height: 30px;
-  width: 30px;
-}
-
+/*
 .ZapLogo {
   margin: 0px;
   padding: 0px;
