@@ -1,4 +1,4 @@
-import './App.css';
+import '../components/css/Header.css';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
@@ -34,7 +34,7 @@ export default function Header() {
                 <Box className='SocialMedia'>                
                     <img style={{ marginRight: '2rem' }} role="link" onClick={() => openInNewTab('https://www.instagram.com/tn4.tech/')} className="InstaLogo" src='./Insta_Logo.png' alt='InstaLogo' />
                     <img style={{ marginRight: '2rem' }} role="link" onClick={() => openInNewTab('https://wa.link/tses2v')} className="ZapLogo" src='./Zap_Logo.png' alt='ZapLogo' />
-                    <img role="link" onClick={() => openInNewTab('https://wa.link/tses2v')} className="FaceLogo" src='./Facebook_Logo.png' alt='FaceLogo' />
+                    <img role="link" onClick={() => openInNewTab('https://www.facebook.com/Tn4tech/')} className="FaceLogo" src='./Facebook_Logo.png' alt='FaceLogo' />
                 </Box>
             </Box>
         </Box>

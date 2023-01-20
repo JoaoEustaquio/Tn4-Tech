@@ -3,66 +3,6 @@
   background-color: #161616;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header { 
-  display: flex;
-  background:linear-gradient(15deg,rgb(0, 0, 0),#1437b9);
-  background-color: #132875;
-  min-height: 15vh;
-  min-width: 15vh;
-  align-items: center;
-  /*font-size: calc(10px + 2vmin);*/
-  padding-left: 10vh;
-}
-
-.TN4Logo {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: space-between;
-  height: 120px;
-  width: 120px;
-}
-
-.SocialMedia {
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
-  padding: 0px;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
-}
-/* 
-.FaceLogo {
-  height: 60px;
-  width: 60px;
-} */
-
-/*
-.ZapLogo {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  height: 30px;
-  width: 30px;
-} */
-
-.Header-btn {
-  display: 'flex';
-  flex-direction: row;
-  border-left: 10%;
-  padding: 0px 15vh 0px 5vh;
-  margin: 10px 0px;
-  cursor: pointer;
-  font-size: larger;
-  color: aliceblue;
-}
-
 .App-body {
   background-color: #161616;
   min-height: 20vh;
