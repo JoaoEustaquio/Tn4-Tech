@@ -11,7 +11,7 @@ export default function PCGamer() {
 
     return (
         <Box className="App-PCGamer">
-            <text style={{color: "red"}}>TESTE</text>
+            <Box style={{color: "red"}}>TESTE AD</Box>
         </Box>
     );
 }

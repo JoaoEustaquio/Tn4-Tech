@@ -1,6 +1,7 @@
 import './App.css';
 import { Layout } from 'antd';
 import Header from './components/Header.js';
+import Carousel from './components/home/Carousel.js';
 import PCGamer from './components/home/PCGamer.js';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       </div>
 
       <Content>
-        {/* <Carousel/> */}
+        <Carousel/>
         <PCGamer/>
       </Content>
 
