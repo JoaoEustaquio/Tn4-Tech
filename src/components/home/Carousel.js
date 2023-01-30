@@ -24,28 +24,28 @@ export default function carousel() {
         <div>
           <H3>
             <Box>
-              <img role="link" src="./BannerTest.jpg" alt="Banner1" />
+              <img role="link" src="./BannerTest.jpg" alt="Banner1" className="responsive"/>
             </Box>
           </H3>
         </div>
         <div>
           <H3>
             <Box>
-              <img role="link" src="./BannerTest.jpg" alt="Banner1" />
+              <img role="link" src="./BannerTest.jpg" alt="Banner1" className="responsive"/>
             </Box>
           </H3>
         </div>
         <div>
           <H3>
             <Box>
-              <img role="link" src="./BannerTest.jpg" alt="Banner1" />
+              <img role="link" src="./BannerTest.jpg" alt="Banner1" className="responsive"/>
             </Box>
           </H3>
         </div>
         <div>
           <H3>
             <Box>
-              <img role="link" src="./BannerTest.jpg" alt="Banner1" />
+              <img role="link" src="./BannerTest.jpg" alt="Banner1" className="responsive"/>
             </Box>
           </H3>
         </div>
