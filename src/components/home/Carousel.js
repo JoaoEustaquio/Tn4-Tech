@@ -3,13 +3,14 @@ import "@fontsource/lexend-deca";
 import { Carousel } from "antd";
 import Box from "@mui/material/Box";
 import styled from "styled-components";
+import Grid from "@mui/material/Unstable_Grid2";
 
 const H3 = styled.h3`
-height: "160px";
-color: "#fff";
-line-height: "160px";
-text-align: "center";
-background: "#364d79";
+  height: "160px";
+  color: "#fff";
+  line-height: "160px";
+  text-align: "center";
+  background: "#364d79";
 `;
 
 export default function carousel() {
@@ -18,16 +19,12 @@ export default function carousel() {
   // };
 
   return (
+    <Grid>
       <Carousel autoplay>
         <div>
           <H3>
             <Box>
-              <img
-                role="link"
-                className="Banner"
-                src="./BannerTest.jpg"
-                alt="Banner1"
-              />
+              <img role="link" src="./BannerTest.jpg" alt="Banner1" />
             </Box>
           </H3>
         </div>
@@ -53,5 +50,6 @@ export default function carousel() {
           </H3>
         </div>
       </Carousel>
+    </Grid>
   );
 }

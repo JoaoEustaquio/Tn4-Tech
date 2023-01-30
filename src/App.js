@@ -1,25 +1,27 @@
-import './App.css';
-import { Layout } from 'antd';
-import Header from './components/Header.js';
-import Carousel from './components/home/Carousel.js';
-import PCGamer from './components/home/PCGamer.js';
+import "./App.css";
+import { Layout } from "antd";
+import Header from "./components/Header.js";
+import Carousel from "./components/home/Carousel.js";
+import PCGamer from "./components/home/PCGamer.js";
 
 function App() {
-
   const { Content, Footer } = Layout;
 
   return (
+  // Main File on the project. Where all other elements are render.
+
     <div className="App">
-      <div>
-        <Header/>
-      </div>
+      {/* Header of the website where the buttons and icons of social networks are being displayed. */}
+      <Header />
 
       <Content>
-        <Carousel/>
-        <PCGamer/>
-      </Content>
+        {/* Carousel with both ad and store banners. */}
+        <Carousel />
 
-      <Footer className="App-footer"/>
+        {/* Area of ​​the website where ads are being displayed. */}
+        <PCGamer />
+      </Content>
+      <Footer className="App-footer" />
     </div>
   );
 }
