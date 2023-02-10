@@ -1,8 +1,8 @@
 import "./App.css";
 import { Layout } from "antd";
-import Header from "./components/Header.js";
+import Header from "./components/home/Header.js";
 import Carousel from "./components/home/Carousel.js";
-import PCGamer from "./components/home/PCGamer.js";
+import Catalog from "./components/home/Catalog.js";
 
 function App() {
   const { Content, Footer } = Layout;
@@ -19,7 +19,7 @@ function App() {
         <Carousel />
 
         {/* Area of ​​the website where ads are being displayed. */}
-        <PCGamer />
+        <Catalog />
       </Content>
       <Footer className="App-footer" />
     </div>
