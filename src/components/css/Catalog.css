@@ -1,15 +1,29 @@
-* {
-/* background-color: black; */
-border: 50px;
-border-color: 1A4CFF;
+
+.catalogCard {
+  background-color: #000000;
+  color: white;
 }
 
 .title {
-    display: flex;
+  display: flex;
 }
 
-.title {
+.config {
+    color: #808080;
 }
 
 .buyBTN {
+  background-color: #2643AA;
+  color: #000000;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.buyBTN2 {
+  width: 100%;
+}
+
+.PixIcon {    
+  width: 10px;
 }
