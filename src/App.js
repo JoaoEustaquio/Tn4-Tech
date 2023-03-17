@@ -1,6 +1,6 @@
 import "./App.css";
 import { Layout } from "antd";
-import Header from "./components/Header.js";
+import Header from "./components/home/Header.js";
 import Carousel from "./components/home/Carousel.js";
 import PCGamer from "./components/home/PCGamer.js";
 
@@ -16,7 +16,7 @@ function App() {
 
       <Content>
         {/* Carousel with both ad and store banners. */}
-        <Carousel />
+        {/* <Carousel /> */}
 
         {/* Area of ​​the website where ads are being displayed. */}
         <PCGamer />
