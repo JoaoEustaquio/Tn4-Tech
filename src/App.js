@@ -16,7 +16,7 @@ function App() {
 
       <Content>
         {/* Carousel with both ad and store banners. */}
-        {/* <Carousel /> */}
+        <Carousel />
 
         {/* Area of ​​the website where ads are being displayed. */}
         <PCGamer />

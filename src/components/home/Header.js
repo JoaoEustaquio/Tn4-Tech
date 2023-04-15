@@ -13,7 +13,7 @@ export default function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <Box className="App-header">
+    <Box className="App-header" style={{zIndex:7}}>
       <img className="TN4Logo" src="./TN4_Logo.png" alt="TN4Logo" />
       <Box
         sx={{
