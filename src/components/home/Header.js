@@ -94,7 +94,7 @@ export default function Header() {
               </a>
             </li>
 
-            <ul variant="" className="SocialMedia" size="large">
+            <div variant="" className="SocialMedia" size="large">
               <li>
                 <img
                   className="InstaLogo"
@@ -126,7 +126,7 @@ export default function Header() {
                   alt="FaceLogo"
                 />
               </li>
-            </ul>
+            </div>
           </ul>
         </div>
       </Box>
