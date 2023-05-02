@@ -153,8 +153,9 @@
   .navigation-menu.expanded ul {
     display: block;
   }
-
-  .SocialMedia ul {
-    display: none;
+  
+  .SocialMedia{
+    display: inline-flex;
+    
   }
 }
