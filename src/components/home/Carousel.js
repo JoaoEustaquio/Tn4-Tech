@@ -19,7 +19,7 @@ export default function carousel() {
   // };
 
   return (
-    <Grid>
+    <Grid style={{zIndex:1}}>
       <Carousel autoplay>
         <div>
           <H3>
