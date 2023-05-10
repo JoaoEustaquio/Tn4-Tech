@@ -1,29 +1,52 @@
+.Cards {
+  border-style: solid;
+  border: #2643aa;
+  border-width: 1vh;
+  margin: 3vh;
+}
 
 .catalogCard {
   background-color: #000000;
   color: white;
 }
 
-.title {
-  display: flex;
-}
-
-.config {
-    color: #808080;
-}
-
-.buyBTN {
-  background-color: #2643AA;
-  color: #000000;
-  border-radius: 10px;
-  display: flex;
+.valueTwo {
+  width: 50vh;
   text-align: center;
 }
 
-.buyBTN2 {
-  width: 100%;
+.config {
+  color: #949494;
+  font-size: small;
+  padding: 5%;
 }
 
-.PixIcon {    
-  width: 10px;
+.buyBTN {
+  background-color: #1f3fb3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vh;
+}
+
+.buyBTN {
+  
+}
+
+.PixLogo {
+  margin: 10px;
+  width: 4vh;
+  position: absolute;
+  left: 30px;
+}
+
+.CardLogo {
+  margin: 10px;
+  width: 4vh;
+  position: absolute;
+  left: 30px;
 }
