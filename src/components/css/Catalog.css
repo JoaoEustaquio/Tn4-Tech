@@ -10,15 +10,39 @@
   color: white;
 }
 
-.valueTwo {
-  width: 50vh;
-  text-align: center;
-}
-
 .config {
   color: #949494;
   font-size: small;
-  padding: 5%;
+  padding: 3%;
+}
+
+.PixPay {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.PixLogo {
+  margin-left: 14px;
+  width: 4vh;
+  left: 30px;
+}
+
+.CardPay {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.CardLogo {
+  margin: 10px;
+  width: 4vh;
+  left: 30px;
+}
+
+.CardValue {
+  width: 40vh;
+  text-align: center;
 }
 
 .buyBTN {
@@ -31,22 +55,5 @@
   text-decoration: none;
   display: inline-block;
   font-size: 3vh;
-}
-
-.buyBTN {
-  
-}
-
-.PixLogo {
-  margin: 10px;
-  width: 4vh;
-  position: absolute;
-  left: 30px;
-}
-
-.CardLogo {
-  margin: 10px;
-  width: 4vh;
-  position: absolute;
-  left: 30px;
+  padding: 3%;
 }
