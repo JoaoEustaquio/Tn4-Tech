@@ -1,5 +1,10 @@
 .Cards {
-  border-style: solid;
+  display: flex;
+  align-items: row;
+  overflow-x: auto;
+}
+
+.Card {
   border: #2643aa;
   border-width: 1vh;
   margin: 3vh;
@@ -18,7 +23,7 @@
 
 .PixPay {
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
 }
 
@@ -30,7 +35,7 @@
 
 .CardPay {
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
 }
 
@@ -46,14 +51,5 @@
 }
 
 .buyBTN {
-  background-color: #1f3fb3;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  margin-top: 10%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vh;
-  padding: 3%;
+
 }

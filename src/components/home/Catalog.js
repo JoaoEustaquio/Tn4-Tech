@@ -10,41 +10,215 @@ export default function MediaCard() {
   return (
     <>
       <div className="Cards">
-        <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
-          <CardMedia
-            component="img"
-            image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
-          />
+        <div className="Card" style={{ border: '5px solid #1A4CFF', flex: '0 0 20%', maxWidth: '100%'  }}>
+          <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
+            <CardMedia
+              component="img"
+              image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
+            />
 
-          <CardContent className="catalogCard">
-            <Typography className="title" component="div">
-              Kit Pc Gamer, teclado, mouse e monitor
-            </Typography>
-            <Typography className="config">CONFIGURAÇÕES</Typography>
-
-            <div className="PixPay">
-              <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
-              <Typography className="PixValue" component="div">
-                R$4590,00 no PIX
+            <CardContent className="catalogCard">
+              <Typography className="title" component="div">
+                Kit Pc Gamer, teclado, mouse e monitor
               </Typography>
-            </div>
+              <Typography className="config">CONFIGURAÇÕES</Typography>
 
-            <div className="CardPay">
-              <img className="CardLogo" src="./Card-Icon.png" alt="CardLogo" />
-              <Typography className="CardValue" component="div">
-                R$4890,00 em até 10x SEM JUROS
+              <div className="PixPay">
+                <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
+                <Typography className="PixValue" component="div">
+                  R$4590,00 no PIX
+                </Typography>
+              </div>
+
+              <div className="CardPay">
+                <img
+                  className="CardLogo"
+                  src="./Card-Icon.png"
+                  alt="CardLogo"
+                />
+                <Typography className="CardValue" component="div">
+                  R$4890,00 em até 10x SEM JUROS
+                </Typography>
+              </div>
+
+              <Button
+                classes={{ width: 400 }}
+                variant="contained"
+                className="buyBTN"
+              >
+                COMPRAR AGORA
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="Card" style={{ border: '5px solid #1A4CFF' }}>
+          <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
+            <CardMedia
+              component="img"
+              image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
+            />
+
+            <CardContent className="catalogCard">
+              <Typography className="title" component="div">
+                Kit Pc Gamer, teclado, mouse e monitor
               </Typography>
-            </div>
+              <Typography className="config">CONFIGURAÇÕES</Typography>
 
-            <Button
-              classes={{ width: 400 }}
-              variant="contained"
-              className="buyBTN"
-            >
-              COMPRAR AGORA
-            </Button>
-          </CardContent>
-        </Card>
+              <div className="PixPay">
+                <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
+                <Typography className="PixValue" component="div">
+                  R$4590,00 no PIX
+                </Typography>
+              </div>
+
+              <div className="CardPay">
+                <img
+                  className="CardLogo"
+                  src="./Card-Icon.png"
+                  alt="CardLogo"
+                />
+                <Typography className="CardValue" component="div">
+                  R$4890,00 em até 10x SEM JUROS
+                </Typography>
+              </div>
+
+              <Button
+                classes={{ width: 400 }}
+                variant="contained"
+                className="buyBTN"
+              >
+                COMPRAR AGORA
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="Card" style={{ border: '5px solid #1A4CFF' }}>
+          <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
+            <CardMedia
+              component="img"
+              image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
+            />
+
+            <CardContent className="catalogCard">
+              <Typography className="title" component="div">
+                Kit Pc Gamer, teclado, mouse e monitor
+              </Typography>
+              <Typography className="config">CONFIGURAÇÕES</Typography>
+
+              <div className="PixPay">
+                <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
+                <Typography className="PixValue" component="div">
+                  R$4590,00 no PIX
+                </Typography>
+              </div>
+
+              <div className="CardPay">
+                <img
+                  className="CardLogo"
+                  src="./Card-Icon.png"
+                  alt="CardLogo"
+                />
+                <Typography className="CardValue" component="div">
+                  R$4890,00 em até 10x SEM JUROS
+                </Typography>
+              </div>
+
+              <Button
+                classes={{ width: 400 }}
+                variant="contained"
+                className="buyBTN"
+              >
+                COMPRAR AGORA
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="Card" style={{ border: '5px solid #1A4CFF' }}>
+          <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
+            <CardMedia
+              component="img"
+              image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
+            />
+
+            <CardContent className="catalogCard">
+              <Typography className="title" component="div">
+                Kit Pc Gamer, teclado, mouse e monitor
+              </Typography>
+              <Typography className="config">CONFIGURAÇÕES</Typography>
+
+              <div className="PixPay">
+                <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
+                <Typography className="PixValue" component="div">
+                  R$4590,00 no PIX
+                </Typography>
+              </div>
+
+              <div className="CardPay">
+                <img
+                  className="CardLogo"
+                  src="./Card-Icon.png"
+                  alt="CardLogo"
+                />
+                <Typography className="CardValue" component="div">
+                  R$4890,00 em até 10x SEM JUROS
+                </Typography>
+              </div>
+
+              <Button
+                classes={{ width: 400 }}
+                variant="contained"
+                className="buyBTN"
+              >
+                COMPRAR AGORA
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="Card" style={{ border: '5px solid #1A4CFF' }}>
+          <Card sx={{ maxWidth: 260, maxHeight: 600 }}>
+            <CardMedia
+              component="img"
+              image="https://shopinfo.vteximg.com.br/arquivos/ids/1351540-1000-1000/1.png?v=638143379900800000"
+            />
+
+            <CardContent className="catalogCard">
+              <Typography className="title" component="div">
+                Kit Pc Gamer, teclado, mouse e monitor
+              </Typography>
+              <Typography className="config">CONFIGURAÇÕES</Typography>
+
+              <div className="PixPay">
+                <img className="PixLogo" src="./pix-icon.png" alt="PixLogo" />
+                <Typography className="PixValue" component="div">
+                  R$4590,00 no PIX
+                </Typography>
+              </div>
+
+              <div className="CardPay">
+                <img
+                  className="CardLogo"
+                  src="./Card-Icon.png"
+                  alt="CardLogo"
+                />
+                <Typography className="CardValue" component="div">
+                  R$4890,00 em até 10x SEM JUROS
+                </Typography>
+              </div>
+
+              <Button
+                classes={{ width: 400 }}
+                variant="contained"
+                className="buyBTN"
+              >
+                COMPRAR AGORA
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </>
   );
